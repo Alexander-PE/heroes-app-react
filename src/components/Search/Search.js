@@ -22,7 +22,7 @@ export const Search = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    navigate(`?q=` + searchText);
+    navigate(`?q=` + searchText);   // asigna el valor del form al url
   }
 
   return (
